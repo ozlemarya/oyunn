@@ -1,0 +1,105 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #f7f4f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    background-color: #ffefe0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 5%;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-1 {
+    height: 60px;
+    width: 60px;
+    background-color: #021a03;
+    margin: 20px;
+    border-bottom-right-radius: 15px;
+}
+
+.box-2 {
+    width: 60px;
+    height: 60px;
+    background-color: #EA640D;
+    margin: 20px;
+    border-bottom-right-radius: 15px;
+}
+
+.box-3 {
+    width: 60px;
+    height: 60px;
+    background-color: #393E46;
+    margin: 20px;
+    border-bottom-right-radius: 15px;
+}
+
+.box-4 {
+    width: 60px;
+    height: 60px;
+    background-color: #168181;
+    margin: 20px;
+    border-bottom-right-radius: 15px;
+}
+
+#imgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#rabbit {
+    width: 20%;
+    height: 27%;
+}
+
+#contentContainer {
+    position: relative;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cardContainer {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #ffefe0;
+    padding: 15px;
+}
